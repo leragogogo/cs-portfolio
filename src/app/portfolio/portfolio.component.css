@@ -1,0 +1,60 @@
+h2 {
+    color: #4B0082;
+    align-self: center;
+}
+
+.portfolio_title {
+    flex-direction: column;
+    text-align: center;
+}
+
+hr.dotted {
+    border-top: 3px dotted #7f7e80;
+}
+
+.portfolio_description {
+    text-align: center;
+}
+
+h3 {
+    color: #6495ED;
+}
+
+.project_description {
+    color: #7f7e80;
+    width: 300px;
+}
+
+.project_image{
+    display: flex;
+    height: 500px;
+    gap: 30px;
+}
+
+.project{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #4B0082;
+    background-color: #F5F5F5;
+    margin: 20px;
+    gap: 19%;
+    flex-direction: row;
+}
+
+.project_information{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    
+}
+
+.see_more {
+    background-color: #E6E6FA;
+    border: none;
+    color: #4B0082;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}

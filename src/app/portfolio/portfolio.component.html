@@ -1,1 +1,77 @@
-<p>portfolio works!</p>
+<div class="portfolio_title">
+    <h2>Computer Science Portfolio</h2>
+    <hr class="dotted">
+</div>
+<div class="portfolio_description">
+    <p>
+        The section below provides you with my major-related courses.
+        Additionally, you can find my projects related to computer science and design.
+    </p>
+    <hr class="dotted">
+</div>
+<div class="projects">
+    <div class="project">
+        <img src="/assets/courses.png" width="500" height="500">
+        <div class="project_information">
+            <h3>Major-related courses</h3>
+            <p class="project_description">Click on the button below to see all my major-related courses.
+                My expected graduation year is 2026.
+            </p>
+            <button class="see_more">
+                <a [routerLink]="['/portfolio/courses']">See more</a>
+            </button>
+
+        </div>
+    </div>
+    <div class="project">
+        <div class="project_image">
+            <img src="/assets/places1.png" width="250" height="500">
+            <img src="/assets/places2.png" width="250" height="500">
+        </div>
+        <div class="project_information">
+            <h3>Places app</h3>
+            <p class="project_description">
+                The app aims to show interesting places nearby.
+                Users can set the radius and the type of a place and see sights in a list on the map.
+                I implemented this app using Flutter for the frontend.
+            </p>
+            <button class="see_more">
+                <a [routerLink]="['/portfolio/places']">See more</a>
+            </button>
+        </div>
+    </div>
+    <div class="project">
+        <div class="project_image">
+            <img src="/assets/teacheasy1.png" width="250" height="500">
+            <img src="/assets/teacheasy2.png" width="250" height="500">
+        </div>
+        <div class="project_information">
+            <h3>TeachEasy - demo version of an app</h3>
+            <p class="project_description">
+                This was a 24-hour hackathon at my university,
+                where we developed a demo version of an app helping teachers in Austria to digitalize their work.
+                My team got the second place out of 13 contesters.
+            </p>
+            <button class="see_more">
+                <a [routerLink]="['/portfolio/teacheasy']">See more</a>
+            </button>
+        </div>
+    </div>
+    <div class="project">
+        <div class="project_image">
+            <img src="/assets/mindbreeze1.png" width="250" height="500">
+            <img src="/assets/mindbreeze2.png" width="250" height="500">
+        </div>
+        <div class="project_information">
+            <h3>Mindbreeze - an app to organize your day</h3>
+            <p class="project_description">
+                A group of design-majored students implemented the design of an app, helping to organize your day.
+                I was working on the app as an outsourced member of the team and implemented the app using Flutter.
+            </p>
+            <button class="see_more">
+                <a [routerLink]="['/portfolio/mindbreeze']">See more</a>
+            </button>
+        </div>
+    </div>
+
+</div>

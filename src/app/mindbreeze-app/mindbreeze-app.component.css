@@ -1,0 +1,64 @@
+h2 {
+    color: #4B0082;
+    align-self: center;
+}
+
+hr.dotted {
+    border-top: 3px dotted #7f7e80;
+}
+
+.places_title {
+    flex-direction: column;
+    text-align: center;
+}
+
+.video_link {
+    text-align: center;
+}
+
+h3 {
+    color: #6495ED
+}
+
+.description {
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+p {
+    color: #7f7e80;
+
+}
+.screenshots_row img {
+    margin-right: 20px;
+}
+
+.screenshots_row img:last-child {
+    margin-right: 0;
+}
+
+.screenshots {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.languages {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.tools {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}

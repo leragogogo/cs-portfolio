@@ -1,0 +1,20 @@
+h2{
+    color: #4B0082;
+    align-self: center;
+}
+
+.resume_title{
+    flex-direction: column;
+    text-align: center;
+}
+
+hr.dotted {
+    border-top: 3px dotted #7f7e80;
+}
+
+.resume_link{
+    text-align: center;
+}
+.resume_image{
+    border: 1px solid #4B0082;
+}

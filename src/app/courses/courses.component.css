@@ -1,0 +1,48 @@
+.universities {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    padding-left: 30px;
+}
+
+h2 {
+    color: #4B0082;
+    align-self: center;
+}
+
+.courses_title {
+    flex-direction: column;
+    text-align: center;
+}
+
+hr.dotted {
+    border-top: 3px dotted #7f7e80;
+}
+
+h3 {
+    color: #6495ED;
+}
+
+h4 {
+    color: #87CEFA;
+}
+
+p {
+    color: #7f7e80;
+}
+
+.dotted-list {
+    list-style-type: none; 
+    padding-left: 20px; 
+}
+.dotted-list li {
+    position: relative; 
+    padding-left: 20px; 
+    color: #7f7e80;
+}
+.dotted-list li::before {
+    content: '•'; 
+    position: absolute;
+    left: 0; 
+    color: #4B0082;
+}
