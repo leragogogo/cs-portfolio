@@ -11,22 +11,22 @@ const routeConfig: Routes = [
     {
         path: '',
         component: AboutComponent,
-        title: 'About page',
+        title: 'About',
     },
     {
         path: 'about',
         component: AboutComponent,
-        title: 'About page',
+        title: 'About',
     },
     {
         path: 'portfolio',
         component: PortfolioComponent,
-        title: 'Portfolio page',
+        title: 'Portfolio',
     },
     {
         path: 'resume',
         component: ResumeComponent,
-        title: 'Resume page',
+        title: 'Resume',
     },
     {
         path:'portfolio/courses',
@@ -36,17 +36,17 @@ const routeConfig: Routes = [
     {
         path:'portfolio/places',
         component: PlacesAppComponent,
-        title: 'Places',
+        title: 'Project',
     },
     {
         path:'portfolio/teacheasy',
         component: TeachEasyComponent,
-        title: 'TeachEasy',
+        title: 'Project',
     },
     {
         path:'portfolio/mindbreeze',
         component: MindbreezeAppComponent,
-        title: 'Courses',
+        title: 'Project',
     }
 ];
 export default routeConfig;
